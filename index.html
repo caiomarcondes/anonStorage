@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/js/script.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="" class="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">    
+    <title>Envio de Arquivos</title>
+
+</head>
+<body>
+    <div class="welcome">
+        <h2 class="font-color">Faça o upload do seu arquivo</h2>
+        <h1 class="font-color">Faça o upload e solicite quando quiser</h1>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+                <div class="upload-area">
+                    <h1>Adicione o arquivo</h1>
+                    <form action="upload.php" method="POST" enctype="multipart/form-data" class="upload-form">
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" id="fileToUpload" name="fileToUpload" onchange="updateFileName()">
+                            <label class="custom-file-label" for="fileToUpload" id="fileLabel">Escolher arquivo</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block mt-3 font-weight-bold">Enviar Arquivo</button>
+                    </form>
+                </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+          <p>Caio Marcondes ©</p>
+            <a href="https://github.com/caiomarcondes">
+                <img class="img" src="img/github.png">
+        </a>
+            <a  href="https://www.linkedin.com/in/marcondescaio/">
+                <img class="img2" src="img/linkedin.png">
+        </a>
+    </div>
+      </footer>
+</body>
+</html>

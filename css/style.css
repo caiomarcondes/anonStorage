@@ -1,0 +1,159 @@
+/* AnonStorage v1.0 */
+/* Caio Marcondes */
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500&display=swap');
+
+ body {
+    font-family: Manrope, sans-serif;
+    background: radial-gradient(circle, #4844d6 0%, #7e6fe8 100%);
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 700px;
+}
+
+.upload-area {
+    margin: 55px;
+}
+
+.welcome {
+    padding: 10px;
+    width: 700px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+
+.font-color {
+    color: #000000;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: Josefin Sans, sans-serif;
+    font-size: 24px;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    font-size: 37px;
+    color: #333;
+    justify-content: center;
+}
+
+
+
+.upload-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.custom-file {
+    position: relative;
+    display: inline-block;
+    width: 145%;
+    height: calc(1.5em + 0.75rem + 2px);
+    margin-bottom: 20px;
+}
+
+.custom-file:hover {
+    color: #000000;
+}
+
+.file-input {
+    display: none;
+}
+
+.btn {
+    color: #fff;
+    font-size: 16px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 5px solid #4b44c5;
+    font-size: 17px;
+    font-family: Manrope, Bold;
+    width: 100%;
+    background-color: #524cd9;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    z-index: 69;
+}
+
+.img {
+    position: fixed;
+    bottom: 30px;
+    right: 25px;
+    width: 50px;
+    height: 50px;
+}
+
+.img2 {
+    position: fixed;
+    bottom: 30px;
+    right: 100px;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+/* NAVBAR */
+*::-webkit-scrollbar {
+    width: 10px;
+    width: 10px;
+  }
+  *::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background-color: #A350EB;
+    border: 7px solid #CCCCCC;
+  }
+  
+  *::-webkit-scrollbar-track:hover {
+    background-color: #C20303;
+  }
+  
+  *::-webkit-scrollbar-track:active {
+    background-color: #8536C2;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background-color: #2e2b8b;
+  }
+
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background-color:  #2e2b8b;
+  }
+  
+  *::-webkit-scrollbar-thumb:active {
+    background-color: #a3a3a3;
+  }
+  
