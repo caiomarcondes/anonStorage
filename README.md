@@ -1,4 +1,4 @@
-# anonStorage
+# anonStorage V1
 Projeto feito para ser um repositório de arquivos temporários
 
 - HTML e CSS
